@@ -1,11 +1,12 @@
+/*
+ * CSS styles | Mobile first
+ * Tailwind
+ * @Author: Patrik Vaďura | czechvisual
+ * @package maildevelop
+*/
+
 /* Tailwind CSS components */
 @import "tailwindcss/components";
-
-/**
- * @import here any custom CSS components - that is, CSS that
- * you'd want loaded before the Tailwind utilities, so the
- * utilities can still override them.
-*/
 
 /* Tailwind CSS utility classes */
 @import "tailwindcss/utilities";

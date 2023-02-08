@@ -1,0 +1,72 @@
+---
+title: "Confirm your email address"
+preheader: "Please confirm your email address in order to activate your account"
+bodyClass: bg-slate-50
+logo: "https://saroli.cz/emailing/assets/saroli_logo_default.png"
+photo: "https://saroli.cz/emailing/assets/profile-foto/profile-indra.png"
+phone: "+420 775 265 640"
+email: "indra@saroli.cz"
+website: "indrapatrik.cz"
+pozice: "Investiční a úvěrový specialista"
+divize: "Saroli Forte s.r.o. | Saroli & Partneři s.r.o."
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table class="w-600 font-sans sm:w-full">
+      <tr>
+        <td align="center">
+          <table class="w-600 sm:w-full mb-4">
+            <tr>
+              <td class="text-black contentLink font-normal pb-8 px-0 sm:px-0" style="border-bottom: 1px solid #E8E7E4!important;">
+                <div class="m-0 font-hind text-base leading-relaxed contentLink">
+                  Dobrý den,
+                  <br><br>
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Nulla non lectus sed nisl molestie malesuada. Vivamus porttitor turpis ac leo.
+                  <br><br>
+                  S přáním hezkého dne,
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <table class="w-600 sm:w-full" role="separator">
+            <tr>
+              <td class="leading-2">&zwnj;</td>
+            </tr>
+          </table>
+
+          <table class="w-600 sm:w-full">
+            <tr>
+              <td class="w-1/6 pl-0 text-black font-light sm:w-1/4 sm:px-0">
+                <img src="{{ page.photo }}" width="70" style="width: 70px!important;">
+              </td>
+
+              <td class="w-5/6 pl-0 sm:w-3/4">
+                <a href="https://saroli.cz">
+                  <img src="{{ page.logo }}" width="80" style="width: 80px!important;">
+                </a>
+
+                <p class="m-0 text-base text-saroli">
+                  <span class="font-bold">Patrik Indra</span> | {{ page.pozice }} | {{ page.divize }}
+                </p>
+
+                <p class="m-0 font-light text-gray text-base">
+                  <a href="tel:{{ page.phone }};" class="text-gray grayLinks">
+                    {{ page.phone }}
+                  </a> |
+                  <a href="tel:{{ page.email }};" class="text-gray grayLinks">
+                    {{ page.email }}
+                  </a> |
+                  <a href="https://{{ page.website }}" class="text-gray grayLinks">
+                    {{ page.website }}
+                  </a>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>
