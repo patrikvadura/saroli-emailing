@@ -1,48 +1,47 @@
 <div align="center">
   <p>
     <a href="https://maizzle.com" target="_blank">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/maizzle/maizzle/raw/master/.github/logo-dark.svg">
-        <img alt="Maizzle Starter" src="https://github.com/maizzle/maizzle/raw/master/.github/logo-light.svg" width="300" height="225" style="max-width: 100%;">
-      </picture>
+      <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1669367700/czechvisual/sluzby%20-%20logo/maildevelop_logo_ofuttn.svg" width="300" height="150" style="max-width: 100%;" alt="maildevelop">
     </a>
   </p>
-  <p>Quickly build HTML emails with utility-first CSS</p>
-<div>
 
-  [![Version][npm-version-shield]][npm]
-  [![Build][github-ci-shield]][github-ci]
-  [![Downloads][npm-stats-shield]][npm-stats]
-  [![License][license-shield]][license]
-
-  </div>
+  <p>
+    <a href="https://czechvisual.space/saroli/emailing/persons/saroli-antonovic.html" target="_blank">
+      <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1669369398/czechvisual/github%20-%20badges/badge_production_wh6c65.svg" height="20" style="max-width: 100%;" alt="">
+    </a>
+    <a href="https://www.czechvisual.space/sluno/newsletter/mailchimp/newsletter-11-22.html" target="_blank">
+      <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1669810783/czechvisual/github%20-%20badges/badge_mailchimp_lbjndq.svg" height="20" style="max-width: 100%;" alt="">
+    </a>
+    <a href="https://maizzle.com" target="_blank">
+      <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1669368548/czechvisual/github%20-%20badges/badge_documentation_cplqlp.svg" height="20" style="max-width: 100%;" alt="">
+    </a>
+    <a href="https://opensource.org/licenses/MIT" target="_blank">
+      <img src="https://res.cloudinary.com/patrik-vadura/image/upload/v1669368548/czechvisual/github%20-%20badges/badge_license_sukqju.svg" height="20" style="max-width: 100%;" alt="">
+    </a>
+  </p>
 </div>
+
+# Releases
+
+Open production or staging deploy server and simple change last digits of the URL path.
+
+Check availible [Releases](https://github.com/czechvisual/saroli-emailing/releases)
+
+
+---
 
 ## Getting Started
 
-Clone this starter:
-
-```bash
-npx degit maizzle/maizzle my-project
 ```
+# Install
 
-Install dependencies:
+$ npm install
 
-```
-cd my-project
+# Start local development
 
-npm install
-```
+$ npm run dev
 
-Start local development:
-
-```
-npm run dev
-```
-
-Build emails for production:
-
-```
+# Build emails for production
 npm run build
 ```
 
@@ -50,19 +49,6 @@ npm run build
 
 Maizzle documentation is available at https://maizzle.com
 
-## Issues
-
-Please open all issues in the [framework repository](https://github.com/maizzle/framework).
-
 ## License
 
 The Maizzle framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-[npm]: https://www.npmjs.com/package/@maizzle/framework
-[npm-stats]: https://npm-stat.com/charts.html?package=%40maizzle%2Fframework&from=2019-03-27
-[npm-version-shield]: https://img.shields.io/npm/v/@maizzle/framework.svg
-[npm-stats-shield]: https://img.shields.io/npm/dt/@maizzle/framework.svg?color=6875f5
-[github-ci]: https://github.com/maizzle/framework/actions
-[github-ci-shield]: https://github.com/maizzle/framework/actions/workflows/nodejs.yml/badge.svg
-[license]: ./LICENSE
-[license-shield]: https://img.shields.io/npm/l/@maizzle/framework.svg?color=0e9f6e
