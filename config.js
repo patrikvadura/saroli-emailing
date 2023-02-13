@@ -22,4 +22,9 @@ module.exports = {
       },
     },
   },
+  locals: {
+    saroli: {
+      photo: 'https://czechvisual.space/saroli/emailing/assets/profile-foto/'
+    }
+  }
 }
