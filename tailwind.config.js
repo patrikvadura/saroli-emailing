@@ -121,7 +121,7 @@ module.exports = {
         xxs: '9px',
         xs: '10px',
         sm: '11px',
-        base: '12px',
+        base: '13px',
         lg: '16px',
         xl: '20px',
         '2xl': '24px',
