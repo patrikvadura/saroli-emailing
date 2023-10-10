@@ -24,7 +24,7 @@ module.exports = {
   },
   locals: {
     saroli: {
-      photo: 'https://czechvisual.space/saroli/emailing/assets/profile-foto/'
+      photo: 'https://cdn.patrikvadura.cz/saroli/emailing/assets/profile-foto/'
     }
   }
 }

@@ -16,10 +16,10 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
           server: cluster.hostliner.cz
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          username: ${{ secrets.FTP_PASSWORD_CLUSTER }}
+          password: ${{ secrets.FTP_USERNAME_CLUSTER }}
           protocol: ftps
           port: 21
           local-dir: ./output/
-          server-dir: saroli/emailing/
+          server-dir: cdn.patrikvadura.cz/saroli/emailing/
           state-name: .production.json
